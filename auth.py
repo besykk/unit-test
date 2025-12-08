@@ -8,3 +8,13 @@ def login(user, password):
     else:
         return "Ошибка"
 
+
+if __name__ == "__main__":
+    print("=== Вход в систему ===")
+
+    user = input("Введите логин: ")
+    password = input("Введите пароль: ")
+
+    result = login(user, password)
+
+    print("\nResult:", result)

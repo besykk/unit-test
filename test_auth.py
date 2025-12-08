@@ -5,7 +5,7 @@ class LoginTestCase(unittest.TestCase):
     def test_successful_login(self):
         """Проверка успешного входа с правильными данными"""
         result = login("home", "qwerty1234")
-        self.assertEqual(result, "Ошибка")
+        self.assertEqual(result, "Успешно")
 
     def test_wrong_password(self):
         """Проверка входа с неверным паролем"""
